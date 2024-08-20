@@ -36,7 +36,7 @@ export const route: Route = {
   | nba | cba | soccer |
 
   :::tip
-  电竞分类参见 [游戏热帖](https://bbs.hupu.com/all-gg) 的对应路由 [\`/hupu/all/all-gg\`](https://rsshub.app/hupu/all/all-gg)。
+  电竞分类参见 [游戏热帖](https://bbs.hupu.com/all-gg) 的对应路由 [\`/hupu/all/all-gg\`](https://rss.windego.cn/hupu/all/all-gg)。
   :::`,
 };
 

@@ -38,7 +38,9 @@ export const route: Route = {
 
 async function handler(ctx) {
     if (!config.mihoyo.cookie) {
-        throw new ConfigNotFoundError('Miyoushe Timeline is not available due to the absense of [Miyoushe Cookie]. Check <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config tutorial</a>');
+        throw new ConfigNotFoundError(
+            'Miyoushe Timeline is not available due to the absense of [Miyoushe Cookie]. Check <a href="https://docs-rss.windego.cn/deploy/config#route-specific-configurations">relevant config tutorial</a>'
+        );
     }
 
     const page_size = ctx.req.query('limit') || '20';

@@ -42,7 +42,7 @@ async function handler(ctx) {
     const baseUrl = 'http://zjj.sz.gov.cn/xxgk/';
     const cfg = config[ctx.req.param('caty')];
     if (!cfg) {
-        throw new InvalidParameterError('Bad category. See <a href="https://docs.rsshub.app/routes/government#guang-dong-sheng-ren-min-zheng-fu-shen-zhen-shi-zhu-fang-he-jian-she-ju">docs</a>');
+        throw new InvalidParameterError('Bad category. See <a href="https://docs-rss.windego.cn/routes/government#guang-dong-sheng-ren-min-zheng-fu-shen-zhen-shi-zhu-fang-he-jian-she-ju">docs</a>');
     }
 
     const currentUrl = new URL(cfg.link, baseUrl).href;

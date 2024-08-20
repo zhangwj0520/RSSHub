@@ -34,13 +34,13 @@ export const route: Route = {
     name: '发现',
     maintainers: ['nczitzk'],
     handler,
-    description: `查看 **精选** 分类下的全部内容，其他参数选择默认，可直接使用路由 [\`/zcool/discover/0\`](https://rsshub.app/zcool/discover/0)
+    description: `查看 **精选** 分类下的全部内容，其他参数选择默认，可直接使用路由 [\`/zcool/discover/0\`](https://rss.windego.cn/zcool/discover/0)
 
-  查看 **精选** 分类下的 **运营设计** 子分类全部内容，其他参数选择默认，可直接使用路由 [\`/zcool/discover/0/617\`](https://rsshub.app/zcool/discover/0/617)
+  查看 **精选** 分类下的 **运营设计** 子分类全部内容，其他参数选择默认，可直接使用路由 [\`/zcool/discover/0/617\`](https://rss.windego.cn/zcool/discover/0/617)
 
-  在 **精选** 分类下的 **运营设计** 子分类全部内容基础上，筛选出有 **视频**，可直接使用路由 [\`/zcool/discover/0/617/1\`](https://rsshub.app/zcool/discover/0/617/1)
+  在 **精选** 分类下的 **运营设计** 子分类全部内容基础上，筛选出有 **视频**，可直接使用路由 [\`/zcool/discover/0/617/1\`](https://rss.windego.cn/zcool/discover/0/617/1)
 
-  在 **精选** 分类下的 **运营设计** 子分类全部内容基础上，筛选出有 **视频**，且城市选择 **北京**，可直接使用路由 [\`/zcool/discover/0/617/1/北京\`](https://rsshub.app/zcool/discover/0/617/1/北京)
+  在 **精选** 分类下的 **运营设计** 子分类全部内容基础上，筛选出有 **视频**，且城市选择 **北京**，可直接使用路由 [\`/zcool/discover/0/617/1/北京\`](https://rss.windego.cn/zcool/discover/0/617/1/北京)
 
   :::tip
   下方仅提供 **分类及其子分类** 参数的代码。**学校** 参数的代码可以在 [站酷发现页](https://www.zcool.com.cn/discover) 中选择跳转后，从浏览器地址栏中找到。

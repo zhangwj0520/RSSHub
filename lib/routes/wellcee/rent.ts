@@ -24,7 +24,7 @@ export const route: Route = {
     maintainers: ['TonyRL'],
     handler,
     url: 'www.wellcee.com',
-    description: '支持的城市可以通过 [/wellcee/support-city](https://rsshub.app/wellcee/support-city) 获取',
+    description: '支持的城市可以通过 [/wellcee/support-city](https://rss.windego.cn/wellcee/support-city) 获取',
 };
 
 async function handler(ctx: Context) {

@@ -35,7 +35,7 @@ You may need to setup cookie for a less restrictive rate limit and private profi
 
 async function handler(ctx) {
     // if (!config.instagram || !config.instagram.cookie) {
-    //     throw Error('Instagram RSS is disabled due to the lack of <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config</a>');
+    //     throw Error('Instagram RSS is disabled due to the lack of <a href="https://docs-rss.windego.cn/deploy/config#route-specific-configurations">relevant config</a>');
     // }
     const availableCategories = ['user', 'tags'];
     const { category, key } = ctx.req.param();

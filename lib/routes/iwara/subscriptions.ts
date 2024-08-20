@@ -46,13 +46,13 @@ export const route: Route = {
     handler,
     url: 'ecchi.iwara.tv/',
     description: `:::warning
-  This route requires username and password, therefore it's only available when self-hosting, refer to the [Deploy Guide](https://docs.rsshub.app/deploy/config#route-specific-configurations) for route-specific configurations.
+  This route requires username and password, therefore it's only available when self-hosting, refer to the [Deploy Guide](https://docs-rss.windego.cn/deploy/config#route-specific-configurations) for route-specific configurations.
   :::`,
 };
 
 async function handler() {
     if (!config.iwara || !config.iwara.username || !config.iwara.password) {
-        throw new ConfigNotFoundError('Iwara subscription RSS is disabled due to the lack of <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config</a>');
+        throw new ConfigNotFoundError('Iwara subscription RSS is disabled due to the lack of <a href="https://docs-rss.windego.cn/deploy/config#route-specific-configurations">relevant config</a>');
     }
 
     const rootUrl = `https://www.iwara.tv`;

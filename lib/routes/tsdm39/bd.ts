@@ -36,7 +36,7 @@ const handler: Route['handler'] = async (ctx) => {
 
     const cookie = config.tsdm39.cookie;
     if (!cookie) {
-        throw new ConfigNotFoundError('缺少 TSDM39 用户登录后的 Cookie 值 <a href="https://docs.rsshub.app/zh/deploy/config#route-specific-configurations">TSDM 相关路由</a>');
+        throw new ConfigNotFoundError('缺少 TSDM39 用户登录后的 Cookie 值 <a href="https://docs-rss.windego.cn/zh/deploy/config#route-specific-configurations">TSDM 相关路由</a>');
     }
 
     const html = await ofetch(`https://www.tsdm39.com/forum.php?mod=forumdisplay&fid=85${type ? `&filter=typeid&typeid=${type}` : ''}`, {

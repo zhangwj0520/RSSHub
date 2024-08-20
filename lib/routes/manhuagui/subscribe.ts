@@ -46,7 +46,7 @@ export const route: Route = {
 
 async function handler() {
     if (!config.manhuagui || !config.manhuagui.cookie) {
-        throw new ConfigNotFoundError('manhuagui RSS is disabled due to the lack of <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config</a>');
+        throw new ConfigNotFoundError('manhuagui RSS is disabled due to the lack of <a href="https://docs-rss.windego.cn/deploy/config#route-specific-configurations">relevant config</a>');
     }
     const cookie = config.manhuagui.cookie;
     const response = await got({

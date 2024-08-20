@@ -34,7 +34,7 @@ export const route: Route = {
 
 async function handler(ctx) {
     if (!config.sehuatang.cookie) {
-        throw new ConfigNotFoundError('Sehuatang RSS is disabled due to the lack of <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config</a>');
+        throw new ConfigNotFoundError('Sehuatang RSS is disabled due to the lack of <a href="https://docs-rss.windego.cn/deploy/config#route-specific-configurations">relevant config</a>');
     }
     // 从Url参数中获取uid
     const uid = ctx.req.param('uid');

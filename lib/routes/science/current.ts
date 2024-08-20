@@ -38,12 +38,12 @@ export const route: Route = {
     handler,
     description: `|  Short name |    Full name of the journal    | Route                                                                          |
   | :---------: | :----------------------------: | ------------------------------------------------------------------------------ |
-  |   science   |             Science            | [/science/current/science](https://rsshub.app/science/current/science)         |
-  |    sciadv   |        Science Advances        | [/science/current/sciadv](https://rsshub.app/science/current/sciadv)           |
-  |  sciimmunol |       Science Immunology       | [/science/current/sciimmunol](https://rsshub.app/science/current/sciimmunol)   |
-  | scirobotics |        Science Robotics        | [/science/current/scirobotics](https://rsshub.app/science/current/scirobotics) |
-  |  signaling  |        Science Signaling       | [/science/current/signaling](https://rsshub.app/science/current/signaling)     |
-  |     stm     | Science Translational Medicine | [/science/current/stm](https://rsshub.app/science/current/stm)                 |
+  |   science   |             Science            | [/science/current/science](https://rss.windego.cn/science/current/science)         |
+  |    sciadv   |        Science Advances        | [/science/current/sciadv](https://rss.windego.cn/science/current/sciadv)           |
+  |  sciimmunol |       Science Immunology       | [/science/current/sciimmunol](https://rss.windego.cn/science/current/sciimmunol)   |
+  | scirobotics |        Science Robotics        | [/science/current/scirobotics](https://rss.windego.cn/science/current/scirobotics) |
+  |  signaling  |        Science Signaling       | [/science/current/signaling](https://rss.windego.cn/science/current/signaling)     |
+  |     stm     | Science Translational Medicine | [/science/current/stm](https://rss.windego.cn/science/current/stm)                 |
 
   -   Using route (\`/science/current/\` + "short name for a journal") to get current issue of a journal from AAAS.
   -   Leaving it empty (\`/science/current\`) to get update from Science.`,

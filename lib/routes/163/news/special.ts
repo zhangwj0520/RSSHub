@@ -44,7 +44,7 @@ export const route: Route = {
 
 async function handler(ctx) {
     if (!ctx.req.param('type')) {
-        throw new InvalidParameterError('Bad parameter. See <a href="https://docs.rsshub.app/routes/game#wang-yi-da-shen">https://docs.rsshub.app/routes/game#wang-yi-da-shen</a>');
+        throw new InvalidParameterError('Bad parameter. See <a href="https://docs-rss.windego.cn/routes/game#wang-yi-da-shen">https://docs-rss.windego.cn/routes/game#wang-yi-da-shen</a>');
     }
     const selectedType = Number.parseInt(ctx.req.param('type'));
     let type;

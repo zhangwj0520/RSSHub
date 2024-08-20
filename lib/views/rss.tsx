@@ -9,7 +9,7 @@ const RSS: FC<{ data: Data }> = ({ data }) => {
         <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes={hasItunes ? 'http://www.itunes.com/dtds/podcast-1.0.dtd' : undefined} xmlns:media={hasMedia ? 'http://search.yahoo.com/mrss/' : undefined} version="2.0">
             <channel>
                 <title>{data.title || 'RSSHub'}</title>
-                <link>{data.link || 'https://docs.rsshub.app'}</link>
+                <link>{data.link || 'https://docs-rss.windego.cn'}</link>
                 <atom:link href={data.atomlink} rel="self" type="application/rss+xml" />
                 <description>{data.description || data.title} - Powered by RSSHub</description>
                 <generator>RSSHub</generator>

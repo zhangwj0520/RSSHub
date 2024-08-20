@@ -48,7 +48,7 @@ const Index: FC<{
                     <p className="mb-2 font-bold">Report</p>
                     <p>
                         After carefully reading the{' '}
-                        <a className="text-[#F5712C]" href="https://docs.rsshub.app/" target="_blank">
+                        <a className="text-[#F5712C]" href="https://docs-rss.windego.cn/" target="_blank">
                             document
                         </a>
                         , if you think this is a bug of RSSHub, please{' '}
@@ -59,7 +59,7 @@ const Index: FC<{
                     </p>
                     <p>
                         在仔细阅读
-                        <a className="text-[#F5712C]" href="https://docs.rsshub.app/zh/" target="_blank">
+                        <a className="text-[#F5712C]" href="https://docs-rss.windego.cn/zh/" target="_blank">
                             文档
                         </a>
                         后，如果你认为这是 RSSHub 的 bug，请在 GitHub{' '}
@@ -121,7 +121,7 @@ const Index: FC<{
             </p>
             <p className="!mt-6">
                 Please consider{' '}
-                <a target="_blank" href="https://docs.rsshub.app/sponsor" className="text-[#F5712C]">
+                <a target="_blank" href="https://docs-rss.windego.cn/sponsor" className="text-[#F5712C]">
                     sponsoring
                 </a>{' '}
                 to help keep this open source project alive.

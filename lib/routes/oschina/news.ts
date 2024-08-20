@@ -60,7 +60,7 @@ export const route: Route = {
   | ------------------- | ------------------------ | ------------------- | ---------------------- |
   | industry            | project                  | industry-news       | programming            |
 
-  订阅 [全部板块资讯][osc_all] 可以使用 [https://rsshub.app/oschina/news](https://rsshub.app/oschina/news)
+  订阅 [全部板块资讯][osc_all] 可以使用 [https://rss.windego.cn/oschina/news](https://rss.windego.cn/oschina/news)
 
   [osc_all]: https://www.oschina.net/news "开源中国 - 全部资讯"
 

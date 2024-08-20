@@ -32,7 +32,7 @@ export const route: Route = {
     handler,
     description: `| Node.js 专栏                                             | 阮一峰每周分享                                                 | 语雀使用手册                                             |
   | -------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------- |
-  | [/yuque/egg/nodejs](https://rsshub.app/yuque/egg/nodejs) | [/yuque/ruanyf/weekly](https://rsshub.app/yuque/ruanyf/weekly) | [/yuque/yuque/help](https://rsshub.app/yuque/yuque/help) |`,
+  | [/yuque/egg/nodejs](https://rss.windego.cn/yuque/egg/nodejs) | [/yuque/ruanyf/weekly](https://rss.windego.cn/yuque/ruanyf/weekly) | [/yuque/yuque/help](https://rss.windego.cn/yuque/yuque/help) |`,
 };
 
 async function handler(ctx) {

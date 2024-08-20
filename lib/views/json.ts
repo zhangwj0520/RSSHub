@@ -9,7 +9,7 @@ const json = (data: Data) => {
     const jsonFeed = {
         version: 'https://jsonfeed.org/version/1.1',
         title: data.title || 'RSSHub',
-        home_page_url: data.link || 'https://docs.rsshub.app',
+        home_page_url: data.link || 'https://docs-rss.windego.cn',
         feed_url: data.feedLink,
         description: `${data.description || data.title} - Powered by RSSHub`,
         icon: data.image,

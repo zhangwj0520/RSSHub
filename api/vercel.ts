@@ -12,6 +12,6 @@ const app = require('../lib/app');
 const logger = require('../lib/utils/logger');
 
 logger.info(`🎉 RSSHub is running! Cheers!`);
-logger.info('💖 Can you help keep this open source project alive? Please sponsor 👉 https://docs.rsshub.app/sponsor');
+logger.info('💖 Can you help keep this open source project alive? Please sponsor 👉 https://docs-rss.windego.cn/sponsor');
 
 module.exports = handle(app);

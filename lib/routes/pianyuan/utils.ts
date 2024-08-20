@@ -48,7 +48,7 @@ async function getCookie(cache) {
     let py_loginauth = await cache.get(loginauth_key);
     if (!py_loginauth) {
         if (!config.pianyuan || !config.pianyuan.cookie) {
-            throw new ConfigNotFoundError('pianyuan is disabled due to the lack of <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config</a>');
+            throw new ConfigNotFoundError('pianyuan is disabled due to the lack of <a href="https://docs-rss.windego.cn/deploy/config#route-specific-configurations">relevant config</a>');
         }
         py_loginauth = config.pianyuan.cookie;
     }

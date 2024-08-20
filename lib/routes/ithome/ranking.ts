@@ -50,7 +50,7 @@ async function handler(ctx) {
     const id = type2id[option];
 
     if (!id) {
-        throw new InvalidParameterError('Bad type. See <a href="https://docs.rsshub.app/routes/new-media#it-zhi-jia">https://docs.rsshub.app/routes/new-media#it-zhi-jia</a>');
+        throw new InvalidParameterError('Bad type. See <a href="https://docs-rss.windego.cn/routes/new-media#it-zhi-jia">https://docs-rss.windego.cn/routes/new-media#it-zhi-jia</a>');
     }
 
     const list = $(`#${id} > li`)

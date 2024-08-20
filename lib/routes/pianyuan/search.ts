@@ -20,7 +20,7 @@ export const route: Route = {
 async function handler(ctx) {
     const link_base = 'https://pianyuan.org/';
     const description = '搜索';
-    // 适配jackett 搜索api, eg: https://rsshub.app/pianyuan/indexers/pianyuan/results/search/api?t=test&q=halo
+    // 适配jackett 搜索api, eg: https://rss.windego.cn/pianyuan/indexers/pianyuan/results/search/api?t=test&q=halo
     const searchKey = ctx.originalUrl.split('&q=')[1];
     const link = link_base + `search?q=${searchKey}`;
 

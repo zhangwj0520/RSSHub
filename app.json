@@ -2,7 +2,7 @@
     "name": "RSSHub",
     "description": "Everything is RSSible",
     "repository": "https://github.com/DIYgod/RSSHub",
-    "website": "https://docs.rsshub.app/",
+    "website": "https://docs-rss.windego.cn/",
     "logo": "https://i.loli.net/2019/04/23/5cbeb7e41414c.png",
     "keywords": ["RSS"],
     "env": {

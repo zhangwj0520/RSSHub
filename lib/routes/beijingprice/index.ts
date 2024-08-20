@@ -114,20 +114,20 @@ export const route: Route = {
     example: '/beijingprice/jgzx/xwzx',
     parameters: { category: '分类，默认为 `jgzx/xwzx` 即新闻资讯，可在对应分类页 URL 中找到' },
     description: `:::tip
-  若订阅 [新闻资讯](http://www.beijingprice.cn/jgzx/xwzx/)，网址为 \`http://www.beijingprice.cn/jgzx/xwzx/\`。截取 \`https://beijingprice.cn/\` 到末尾 \`/\` 的部分 \`jgzx/xwzx\` 作为参数填入，此时路由为 [\`/beijingprice/jgzx/xwzx\`](https://rsshub.app/beijingprice/jgzx/xwzx)。
+  若订阅 [新闻资讯](http://www.beijingprice.cn/jgzx/xwzx/)，网址为 \`http://www.beijingprice.cn/jgzx/xwzx/\`。截取 \`https://beijingprice.cn/\` 到末尾 \`/\` 的部分 \`jgzx/xwzx\` 作为参数填入，此时路由为 [\`/beijingprice/jgzx/xwzx\`](https://rss.windego.cn/beijingprice/jgzx/xwzx)。
   :::
 
   #### [价格资讯](http://www.beijingprice.cn/jgzx/xwzx/)
 
   | [新闻资讯](http://www.beijingprice.cn/jgzx/xwzx/)       | [工作动态](http://www.beijingprice.cn/jgzx/gzdt/)       | [各区动态](http://www.beijingprice.cn/jgzx/gqdt/)       | [通知公告](http://www.beijingprice.cn/jgzx/tzgg/)       | [价格早报](http://www.beijingprice.cn/jgzx/jgzb/)       |
   | ------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- |
-  | [jgzx/xwzx](https://rsshub.app//beijingprice/jgzx/xwzx) | [jgzx/gzdt](https://rsshub.app//beijingprice/jgzx/gzdt) | [jgzx/gqdt](https://rsshub.app//beijingprice/jgzx/gqdt) | [jgzx/tzgg](https://rsshub.app//beijingprice/jgzx/tzgg) | [jgzx/jgzb](https://rsshub.app//beijingprice/jgzx/jgzb) |
+  | [jgzx/xwzx](https://rss.windego.cn//beijingprice/jgzx/xwzx) | [jgzx/gzdt](https://rss.windego.cn//beijingprice/jgzx/gzdt) | [jgzx/gqdt](https://rss.windego.cn//beijingprice/jgzx/gqdt) | [jgzx/tzgg](https://rss.windego.cn//beijingprice/jgzx/tzgg) | [jgzx/jgzb](https://rss.windego.cn//beijingprice/jgzx/jgzb) |
 
   #### [综合信息](http://www.beijingprice.cn/zhxx/cbjs/)
 
   | [价格听证](http://www.beijingprice.cn/zhxx/jgtz/)       | [价格监测定点单位名单](http://www.beijingprice.cn/zhxx/jgjcdddwmd/) | [部门预算决算](http://www.beijingprice.cn/bmys/) |
   | ------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------ |
-  | [zhxx/jgtz](https://rsshub.app//beijingprice/zhxx/jgtz) | [zhxx/jgjcdddwmd](https://rsshub.app//beijingprice/zhxx/jgjcdddwmd) | [bmys](https://rsshub.app//beijingprice/bmys)    |
+  | [zhxx/jgtz](https://rss.windego.cn//beijingprice/zhxx/jgtz) | [zhxx/jgjcdddwmd](https://rss.windego.cn//beijingprice/zhxx/jgjcdddwmd) | [bmys](https://rss.windego.cn//beijingprice/bmys)    |
 `,
     categories: ['government'],
 

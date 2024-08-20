@@ -24,7 +24,7 @@ async function handler(ctx) {
     };
 
     if (!mailConfig.username || !mailConfig.password || !mailConfig.host || !mailConfig.port) {
-        throw new ConfigNotFoundError('Email Inbox RSS is disabled due to the lack of <a href="https://docs.rsshub.app/deploy/#route-specific-configurations">relevant config</a>');
+        throw new ConfigNotFoundError('Email Inbox RSS is disabled due to the lack of <a href="https://docs-rss.windego.cn/deploy/#route-specific-configurations">relevant config</a>');
     }
 
     const client = new ImapFlow({

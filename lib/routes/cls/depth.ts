@@ -58,7 +58,7 @@ async function handler(ctx) {
     const title = categories[category];
 
     if (!title) {
-        throw new InvalidParameterError('Bad category. See <a href="https://docs.rsshub.app/routes/finance#cai-lian-she-shen-du">docs</a>');
+        throw new InvalidParameterError('Bad category. See <a href="https://docs-rss.windego.cn/routes/finance#cai-lian-she-shen-du">docs</a>');
     }
 
     const apiUrl = `${rootUrl}/v3/depth/home/assembled/${category}`;

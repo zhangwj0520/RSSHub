@@ -54,7 +54,7 @@ for (const namespace in namespaces) {
                     }
                     radar[domain][subdomain].push({
                         title: radarItem.title || data.name,
-                        docs: `https://docs.rsshub.app/routes/${categories[0]}`,
+                        docs: `https://docs-rss.windego.cn/routes/${categories[0]}`,
                         source: radarItem.source.map((source) => {
                             const sourceURL = new URL('https://' + source);
                             return sourceURL.pathname + sourceURL.search + sourceURL.hash;

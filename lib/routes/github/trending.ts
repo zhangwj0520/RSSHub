@@ -67,7 +67,7 @@ export const route: Route = {
 
 async function handler(ctx) {
     if (!config.github || !config.github.access_token) {
-        throw new ConfigNotFoundError('GitHub trending RSS is disabled due to the lack of <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config</a>');
+        throw new ConfigNotFoundError('GitHub trending RSS is disabled due to the lack of <a href="https://docs-rss.windego.cn/deploy/config#route-specific-configurations">relevant config</a>');
     }
     const since = ctx.req.param('since');
     const language = ctx.req.param('language') === 'any' ? '' : ctx.req.param('language');

@@ -49,7 +49,9 @@ export const route: Route = {
 
 async function handler(ctx) {
     if (!config.weibo.cookies) {
-        throw new ConfigNotFoundError('Weibo user bookmarks is not available due to the absense of [Weibo Cookies]. Check <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config tutorial</a>');
+        throw new ConfigNotFoundError(
+            'Weibo user bookmarks is not available due to the absense of [Weibo Cookies]. Check <a href="https://docs-rss.windego.cn/deploy/config#route-specific-configurations">relevant config tutorial</a>'
+        );
     }
 
     let displayVideo = '1';

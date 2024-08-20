@@ -77,7 +77,7 @@ export const route: Route = {
 
 async function handler(ctx) {
     if (!config.pixiv || !config.pixiv.refreshToken) {
-        throw new ConfigNotFoundError('pixiv RSS is disabled due to the lack of <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config</a>');
+        throw new ConfigNotFoundError('pixiv RSS is disabled due to the lack of <a href="https://docs-rss.windego.cn/deploy/config#route-specific-configurations">relevant config</a>');
     }
 
     const keyword = ctx.req.param('keyword');

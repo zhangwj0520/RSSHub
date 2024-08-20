@@ -40,7 +40,7 @@ export const route: Route = {
 
 async function handler(ctx) {
     if (!config.hefeng.key) {
-        throw new ConfigNotFoundError('QWeather RSS is disabled due to the lack of <a href="https://docs.rsshub.app/zh/install/config#%E5%92%8C%E9%A3%8E%E5%A4%A9%E6%B0%94">relevant config</a>');
+        throw new ConfigNotFoundError('QWeather RSS is disabled due to the lack of <a href="https://docs-rss.windego.cn/zh/install/config#%E5%92%8C%E9%A3%8E%E5%A4%A9%E6%B0%94">relevant config</a>');
     }
     const id = await cache.tryGet(ctx.req.param('location') + '_id', async () => {
         const response = await got(`${CIRY_LOOKUP_API}?location=${ctx.req.param('location')}&key=${config.hefeng.key}`);

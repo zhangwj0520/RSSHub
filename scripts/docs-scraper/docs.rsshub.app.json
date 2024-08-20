@@ -1,7 +1,7 @@
 {
     "index_uid": "rsshub-tmp",
-    "sitemap_urls": ["https://docs.rsshub.app/sitemap.xml"],
-    "start_urls": ["https://docs.rsshub.app"],
+    "sitemap_urls": ["https://docs-rss.windego.cn/sitemap.xml"],
+    "start_urls": ["https://docs-rss.windego.cn"],
     "selectors": {
         "lvl0": {
             "selector": ".menu__link.menu__link--active",

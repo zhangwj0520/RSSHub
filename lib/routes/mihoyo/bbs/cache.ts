@@ -5,7 +5,7 @@ import ConfigNotFoundError from '@/errors/types/config-not-found';
 
 const getUserFullInfo = (ctx, uid) => {
     if (!uid && !config.mihoyo.cookie) {
-        throw new ConfigNotFoundError('GetUserFullInfo is not available due to the absense of [Miyoushe Cookie]. Check <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config tutorial</a>');
+        throw new ConfigNotFoundError('GetUserFullInfo is not available due to the absense of [Miyoushe Cookie]. Check <a href="https://docs-rss.windego.cn/deploy/config#route-specific-configurations">relevant config tutorial</a>');
     }
     uid ||= '';
     const key = 'mihoyo:user-full-info-uid-' + uid;

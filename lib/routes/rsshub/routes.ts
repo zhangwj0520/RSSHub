@@ -66,7 +66,7 @@ async function handler(ctx) {
     ];
     const all = await Promise.all(
         types.map(async (type) => {
-            const response = await ofetch(`https://docs.rsshub.app/${lang}routes/${type}`);
+            const response = await ofetch(`https://docs-rss.windego.cn/${lang}routes/${type}`);
 
             const $ = cheerio.load(response);
             const page = $('.page').toArray();
@@ -78,7 +78,7 @@ async function handler(ctx) {
 
     return {
         title: isEnglish ? 'RSSHub has new routes' : 'RSSHub 有新路由啦',
-        link: 'https://docs.rsshub.app',
+        link: 'https://docs-rss.windego.cn',
         description: isEnglish ? 'Everything is RSSible' : '万物皆可 RSS',
         language: isEnglish ? 'en-us' : 'zh-cn',
         item: list.map(({ page, item, type }) => {
@@ -97,7 +97,7 @@ async function handler(ctx) {
             return {
                 title: `${h2Title.text().trim()} - ${h3Title.text().trim()}`,
                 description: $item.html()?.replaceAll(/<!--.*?-->/g, ''),
-                link: `https://docs.rsshub.app/${lang}routes/${type}#${encodeURIComponent(h2Title.find('.header-anchor').attr('href') && h3Title.find('.header-anchor').attr('href')?.substring(1))}`,
+                link: `https://docs-rss.windego.cn/${lang}routes/${type}#${encodeURIComponent(h2Title.find('.header-anchor').attr('href') && h3Title.find('.header-anchor').attr('href')?.substring(1))}`,
                 guid: $item.attr('id'),
             };
         }),

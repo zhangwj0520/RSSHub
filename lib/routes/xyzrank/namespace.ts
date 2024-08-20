@@ -8,6 +8,6 @@ export const namespace: Namespace = {
 
 若只查看榜单前 50，可在订阅 URL 后加入 \`?limit=50\`。
 
-即，以 [热门节目](https://xyzrank.com/#/) 为例，路由为[\`/xyzrank?limit=50\`](https://rsshub.app/xyzrank?limit=50)。
+即，以 [热门节目](https://xyzrank.com/#/) 为例，路由为[\`/xyzrank?limit=50\`](https://rss.windego.cn/xyzrank?limit=50)。
 :::`,
 };

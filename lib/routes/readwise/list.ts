@@ -45,13 +45,13 @@ export const route: Route = {
 Customise parameter values to fetch specific documents, for example:
 
 \`\`\`
-https://rsshub.app/readwise/list/location=new&category=article
+https://rss.windego.cn/readwise/list/location=new&category=article
 \`\`\`
 
 fetches articles in the Inbox.
 
 \`\`\`
-https://rsshub.app/readwise/list/category=article&tag=shortlist&tag=AI&tagStrategy=all
+https://rss.windego.cn/readwise/list/category=article&tag=shortlist&tag=AI&tagStrategy=all
 \`\`\`
 
 fetches articles tagged both by \`shortlist\` and \`AI\`. `,

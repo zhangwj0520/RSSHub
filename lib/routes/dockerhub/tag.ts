@@ -20,7 +20,7 @@ export const route: Route = {
     maintainers: [],
     handler,
     description: `:::warning
-  Use \`library\` as the \`owner\` for official images, such as [https://rsshub.app/dockerhub/tag/library/mysql](https://rsshub.app/dockerhub/tag/library/mysql)
+  Use \`library\` as the \`owner\` for official images, such as [https://rss.windego.cn/dockerhub/tag/library/mysql](https://rss.windego.cn/dockerhub/tag/library/mysql)
   :::`,
 };
 

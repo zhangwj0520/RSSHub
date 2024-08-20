@@ -60,7 +60,7 @@ export const route: Route = {
 async function handler(ctx) {
     const cfg = config[ctx.req.param('caty')];
     if (!cfg) {
-        throw new InvalidParameterError('Bad category. See <a href="https://docs.rsshub.app/routes/new-media#it-zhi-jia">https://docs.rsshub.app/routes/new-media#it-zhi-jia</a>');
+        throw new InvalidParameterError('Bad category. See <a href="https://docs-rss.windego.cn/routes/new-media#it-zhi-jia">https://docs-rss.windego.cn/routes/new-media#it-zhi-jia</a>');
     }
 
     const current_url = get_url(ctx.req.param('caty'));

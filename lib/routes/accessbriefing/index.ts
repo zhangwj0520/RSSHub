@@ -124,28 +124,28 @@ export const route: Route = {
     example: '/accessbriefing/latest/news',
     parameters: { category: 'Category, Latest News by default' },
     description: `:::tip
-  If you subscribe to [Latest News](https://www.accessbriefing.com/latest/news)，where the URL is \`https://www.accessbriefing.com/latest/news\`, extract the part \`https://www.accessbriefing.com/\` to the end, and use it as the parameter to fill in. Therefore, the route will be [\`/accessbriefing/latest/news\`](https://rsshub.app/accessbriefing/latest/news).
+  If you subscribe to [Latest News](https://www.accessbriefing.com/latest/news)，where the URL is \`https://www.accessbriefing.com/latest/news\`, extract the part \`https://www.accessbriefing.com/\` to the end, and use it as the parameter to fill in. Therefore, the route will be [\`/accessbriefing/latest/news\`](https://rss.windego.cn/accessbriefing/latest/news).
   :::
 
   #### Latest
 
   | Category                                                                               | ID                                                                                              |
   | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-  | [News](https://www.accessbriefing.com/latest/news)                                     | [latest/news](https://rsshub.app/target/site/latest/news)                                       |
-  | [Products & Technology](https://www.accessbriefing.com/latest/products-and-technology) | [latest/products-and-technology](https://rsshub.app/target/site/latest/products-and-technology) |
-  | [Rental News](https://www.accessbriefing.com/latest/rental-news)                       | [latest/rental-news](https://rsshub.app/target/site/latest/rental-news)                         |
-  | [People](https://www.accessbriefing.com/latest/people)                                 | [latest/people](https://rsshub.app/target/site/latest/people)                                   |
-  | [Regualtions & Safety](https://www.accessbriefing.com/latest/regualtions-safety)       | [latest/regualtions-safety](https://rsshub.app/target/site/latest/regualtions-safety)           |
-  | [Finance](https://www.accessbriefing.com/latest/finance)                               | [latest/finance](https://rsshub.app/target/site/latest/finance)                                 |
-  | [Sustainability](https://www.accessbriefing.com/latest/sustainability)                 | [latest/sustainability](https://rsshub.app/target/site/latest/sustainability)                   |
+  | [News](https://www.accessbriefing.com/latest/news)                                     | [latest/news](https://rss.windego.cn/target/site/latest/news)                                       |
+  | [Products & Technology](https://www.accessbriefing.com/latest/products-and-technology) | [latest/products-and-technology](https://rss.windego.cn/target/site/latest/products-and-technology) |
+  | [Rental News](https://www.accessbriefing.com/latest/rental-news)                       | [latest/rental-news](https://rss.windego.cn/target/site/latest/rental-news)                         |
+  | [People](https://www.accessbriefing.com/latest/people)                                 | [latest/people](https://rss.windego.cn/target/site/latest/people)                                   |
+  | [Regualtions & Safety](https://www.accessbriefing.com/latest/regualtions-safety)       | [latest/regualtions-safety](https://rss.windego.cn/target/site/latest/regualtions-safety)           |
+  | [Finance](https://www.accessbriefing.com/latest/finance)                               | [latest/finance](https://rss.windego.cn/target/site/latest/finance)                                 |
+  | [Sustainability](https://www.accessbriefing.com/latest/sustainability)                 | [latest/sustainability](https://rss.windego.cn/target/site/latest/sustainability)                   |
 
   #### Insight
 
   | Category                                                                          | ID                                                                                        |
   | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-  | [Interviews](https://www.accessbriefing.com/insight/interviews)                   | [insight/interviews](https://rsshub.app/target/site/insight/interviews)                   |
-  | [Longer reads](https://www.accessbriefing.com/insight/longer-reads)               | [insight/longer-reads](https://rsshub.app/target/site/insight/longer-reads)               |
-  | [Videos and podcasts](https://www.accessbriefing.com/insight/videos-and-podcasts) | [insight/videos-and-podcasts](https://rsshub.app/target/site/insight/videos-and-podcasts) |
+  | [Interviews](https://www.accessbriefing.com/insight/interviews)                   | [insight/interviews](https://rss.windego.cn/target/site/insight/interviews)                   |
+  | [Longer reads](https://www.accessbriefing.com/insight/longer-reads)               | [insight/longer-reads](https://rss.windego.cn/target/site/insight/longer-reads)               |
+  | [Videos and podcasts](https://www.accessbriefing.com/insight/videos-and-podcasts) | [insight/videos-and-podcasts](https://rss.windego.cn/target/site/insight/videos-and-podcasts) |
   `,
     categories: ['new-media'],
 

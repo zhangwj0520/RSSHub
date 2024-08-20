@@ -124,7 +124,7 @@ async function handler(ctx) {
         }
         case 'cacheUrlKey': {
             const description = await cache.tryGet(
-                new URL('https://rsshub.app'),
+                new URL('https://rss.windego.cn'),
                 () => ({
                     text: `Cache${++cacheIndex}`,
                 }),

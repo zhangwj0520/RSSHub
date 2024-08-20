@@ -57,7 +57,7 @@ export const route: Route = {
 
 async function handler(ctx) {
     if (!config.notion.key) {
-        throw new ConfigNotFoundError('Notion RSS is disabled due to the lack of NOTION_TOKEN(<a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config</a>)');
+        throw new ConfigNotFoundError('Notion RSS is disabled due to the lack of NOTION_TOKEN(<a href="https://docs-rss.windego.cn/deploy/config#route-specific-configurations">relevant config</a>)');
     }
 
     const databaseId = ctx.req.param('databaseId');

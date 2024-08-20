@@ -41,7 +41,7 @@ async function handler(ctx) {
     const cookie = config.zodgame.cookie;
 
     if (cookie === undefined) {
-        throw new ConfigNotFoundError('Zodgame RSS is disabled due to the lack of <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config</a>');
+        throw new ConfigNotFoundError('Zodgame RSS is disabled due to the lack of <a href="https://docs-rss.windego.cn/deploy/config#route-specific-configurations">relevant config</a>');
     }
 
     const response = await got({

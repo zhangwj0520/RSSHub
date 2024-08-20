@@ -143,13 +143,13 @@ const Index: FC<{ debugQuery: string | undefined }> = ({ debugQuery }) => {
                 <p className="text-zinc-500">If you see this page, the RSSHub is successfully installed and working.</p>
                 <p className="text-xl font-medium text-zinc-600">Everything is RSSible</p>
                 <div className="font-bold space-x-4 text-sm">
-                    <a target="_blank" href="https://docs.rsshub.app">
+                    <a target="_blank" href="https://docs-rss.windego.cn">
                         <button className="text-white bg-[#F5712C] hover:bg-[#DD4A15] py-2 px-4 rounded-full transition-colors">View Docs</button>
                     </a>
                     <a target="_blank" href="https://github.com/DIYgod/RSSHub">
                         <button className="bg-zinc-200 hover:bg-zinc-300 py-2 px-4 rounded-full transition-colors">View on GitHub</button>
                     </a>
-                    <a target="_blank" href="https://docs.rsshub.app/sponsor" className="text-[#F5712C]">
+                    <a target="_blank" href="https://docs-rss.windego.cn/sponsor" className="text-[#F5712C]">
                         <button className="text-white bg-red-500 hover:bg-red-600 py-2 px-4 rounded-full transition-colors">❤️ Sponsor</button>
                     </a>
                 </div>
@@ -183,7 +183,7 @@ const Index: FC<{ debugQuery: string | undefined }> = ({ debugQuery }) => {
                 </p>
                 <p className="!mt-6">
                     Please consider{' '}
-                    <a target="_blank" href="https://docs.rsshub.app/sponsor" className="text-[#F5712C]">
+                    <a target="_blank" href="https://docs-rss.windego.cn/sponsor" className="text-[#F5712C]">
                         sponsoring
                     </a>{' '}
                     to help keep this open source project alive.

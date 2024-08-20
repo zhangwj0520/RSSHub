@@ -30,7 +30,7 @@ export const route: Route = {
 
 async function handler(ctx) {
     if (!config.youtube || !config.youtube.key) {
-        throw new ConfigNotFoundError('YouTube RSS is disabled due to the lack of <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config</a>');
+        throw new ConfigNotFoundError('YouTube RSS is disabled due to the lack of <a href="https://docs-rss.windego.cn/deploy/config#route-specific-configurations">relevant config</a>');
     }
     const id = ctx.req.param('id');
     const embed = !ctx.req.param('embed');
